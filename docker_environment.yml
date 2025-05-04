@@ -4,6 +4,8 @@ channels:
   - conda-forge
   - anaconda
 dependencies:
+  - python=3.12.7
+  - pip=25.1
   - pip:
     - langchain-community==0.3.21
     - langchain-openai==0.3.14
