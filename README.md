@@ -7,12 +7,24 @@ A detailed overview of the RAG flowchart is shown below.
 ![Flowchart](https://github.com/user-attachments/assets/5ed20f11-86e9-48ae-91a9-af6bc1dd5862)  
 
 ## Pre-requisites  
+You should have Anaconda Distribution installed for the following commands below. You can visit https://www.anaconda.com/download. If you are using Python instead of Anaconda, udpate the commands below accordingly.
+
 Install the necessary packages by installing Python packages via pip. You can choose to create your own virtual environment before doing so.
+To create your own virtual environment:
+
+```bash
+  conda create -n <your_env_name> python=3.12.7
+  ```
+Then activate your virtual environment:
+
+```bash
+  conda activate <your_env_name>
+  ```
+Install the python library requirements
 
 ```bash
   pip install -r requirements.txt
   ```
-
 Update the .env file with your own <OPEN_API_KEY>
 
 Once the packages have been fully installed, run the following:
