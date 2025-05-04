@@ -1,0 +1,15 @@
+name: rag-app
+
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - pip:
+    - langchain-community==0.3.21
+    - langchain-openai==0.3.14
+    - streamlit==1.37.1
+    - langchain-core==0.3.55
+    - openai==1.69.0
+    - chromadb==1.0.6
+    - faiss-cpu==1.11.0
+    - rank_llm
