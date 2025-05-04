@@ -54,7 +54,7 @@ In the same folder as the DockerFile provided, run the following command:
 ```bash
   docker build --tag rag-app .
   ```
-This will take a while for the Docker Image to be built. Once the Docker image has been built run the next command:
+This will take a while for the Docker Image to be built. Once the Docker image has been built run the next command to start the container:
 
 ```bash
   docker run --rm -ti -p 8501:8501 rag-app
